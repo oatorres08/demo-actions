@@ -7,4 +7,4 @@ jobs:
       - name: Print greeting
         run: echo "Hello World Lucas!"
       - name: Print goodbye
-        run: echo "Done - bye!"
+        run: echo "${{ toJSON(github) }}"
